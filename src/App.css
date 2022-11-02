@@ -7,15 +7,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 button{
-  width: 60px;
-  height: 60px;
-  border: 1px solid #cf83d6f8;
-  border-radius: 30px;
-  font-size: 40px;
-  background-color: #e197f391;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c0acf0f8;
+  border-radius: 10px;
+  font-size: 25px;
+  background-color: #988ca091;
 }
 
 section form input{
@@ -23,6 +24,7 @@ section form input{
   height: 60px;
   font-size: 30px !important;
   align-items: center;
+
 }
 
 section{
@@ -42,6 +44,12 @@ section{
   }
 
   section h1 {
-    font-size: 100px;
+    font-size: 150px;
     margin-top: -60px;
+    border-radius: 50px;
+    color: #d4b1f5c4;
   }
+
+small{
+  font-size: 65%;
+}
