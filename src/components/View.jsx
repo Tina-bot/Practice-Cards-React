@@ -11,7 +11,14 @@ const Screen = ({ words }) => {
 
     useEffect(() => {
         setWordRandom(words[Math.floor(Math.random() * words.length)])
-    }, [points])
+        if (points === 3) {
+            alert("You win!")
+            setError("")
+            setPoints(0)
+            setWord("")
+        }
+
+    }, [points, words])
 
     const handleChange = (event) => {
         setWord(event.target.value)
@@ -28,12 +35,6 @@ const Screen = ({ words }) => {
         else {
             setError("Your answer is wrong, because " + wordRandom.symbol + " is " + wordRandom.text)
         }
-        if (points === 3) {
-            alert("No, You win!")
-            setError("")
-            setPoints(0)
-            setWord("")
-        }
     }
 
     return (
@@ -44,15 +45,10 @@ const Screen = ({ words }) => {
             }
             <section className="bg-gray-900 text-white">
                 <h4> <small> Points {points}/3 </small> </h4>
-                <div
-                    className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:items-center"
-                >
+                <div className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:items-center">
                     <div className="mx-auto max-w-3xl text-center">
                         <h1> {wordRandom.symbol} </h1>
-
-                        <span className="sm:block">
-                            <small>{wordRandom.word} </small>
-                        </span>
+                        <small> {wordRandom.word} </small>
 
                         <Form handleChange={handleChange}
                             handleSubmit={handleSubmit}

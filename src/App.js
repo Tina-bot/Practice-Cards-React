@@ -1,8 +1,8 @@
 import './App.css';
 import { useState } from 'react'
 import View from './components/View'
-import dataJap from './data/japanese'
-import dataEng from './data/english'
+import dataNum from './data/numbers'
+import dataCol from './data/colors'
 
 
 function App() {
@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setLanguage((prevLanguage) => !prevLanguage)}>
-        {language ? "🗽" : "🗾"}
+        {language ? "🌈" : "🔢"}
       </button>
       <br />
-      <View words={language ? dataJap : dataEng} />
+      <View words={language ? dataNum : dataCol} />
     </div>
   );
 }
