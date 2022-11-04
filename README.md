@@ -28,7 +28,7 @@ or
 
 ## Live Preview
 
-🌸 https://practice-language.netlify.app/ 🌸
+🌸 https://practice-cards-jp.netlify.app 🌸
 
 <br>
 
