@@ -10,9 +10,15 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => setLanguage((prevLanguage) => !prevLanguage)}>
-        {language ? "🌈" : "🔢"}
-      </button>
+      <div className='tooltip'>
+        <button
+          onClick={() => setLanguage((prevLanguage) => !prevLanguage)}>
+          <span className="tooltiptext" >
+            {language ? "Change to colors" : "Change to numbers"}
+          </span>
+          {language ? "🌈" : "🔢"}
+        </button>
+      </div>
       <br />
       <View words={language ? dataNum : dataCol} />
     </div>
