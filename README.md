@@ -2,7 +2,7 @@
 
 <img src= "https://64.media.tumblr.com/ac97fd4df06663d446f15d1ab183a136/69f70331f87648cf-fb/s1280x1920/35f9dc4f269c1bd00f95b783c342372c80cf45f2.png" />
 
-<img src="https://user-images.githubusercontent.com/72955349/199868125-8594bb97-b1bd-4a32-8063-ae7e8e1f434e.png" style="width:480px" align="right" />
+<img src="https://user-images.githubusercontent.com/72955349/199868125-8594bb97-b1bd-4a32-8063-ae7e8e1f434e.png" style="width:450px" align="right" />
 
 
 <img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
