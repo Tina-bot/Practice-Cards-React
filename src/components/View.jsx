@@ -1,6 +1,7 @@
 import Form from './Form';
 import { useState, useEffect } from 'react'
 import Error from './Error'
+import Win from './Win'
 
 const Screen = ({ words }) => {
 
@@ -8,19 +9,20 @@ const Screen = ({ words }) => {
     const [points, setPoints] = useState(0)
     const [wordRandom, setWordRandom] = useState('')
     const [error, setError] = useState('')
+    const [win, setWin] = useState(false)
 
     useEffect(() => {
         setWordRandom(words[Math.floor(Math.random() * words.length)])
         if (points === 3) {
-            alert("You win!")
+            setWin(true)
             setError("")
             setPoints(0)
             setWord("")
         }
-
     }, [points, words])
 
     const handleChange = (event) => {
+        setWin(false)
         setWord(event.target.value)
     }
     const handleSubmit = (event) => {
@@ -39,6 +41,10 @@ const Screen = ({ words }) => {
 
     return (
         <>
+            {win ?
+                <Win />
+                : null
+            }
             {error.length > 1 ?
                 <Error error={error} />
                 : null
@@ -48,8 +54,7 @@ const Screen = ({ words }) => {
                 <div className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:items-center">
                     <div className="mx-auto max-w-3xl text-center">
                         <h1> {wordRandom.symbol} </h1>
-                        <small> {wordRandom.word} </small>
-
+                        <h4>    {wordRandom.word}  </h4>
                         <Form handleChange={handleChange}
                             handleSubmit={handleSubmit}
                             word={word} />
