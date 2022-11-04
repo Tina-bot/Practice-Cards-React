@@ -1,71 +1,26 @@
-# Getting Started with Create React App
+# Practice Cards 🎴
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src= "https://64.media.tumblr.com/ac97fd4df06663d446f15d1ab183a136/69f70331f87648cf-fb/s1280x1920/35f9dc4f269c1bd00f95b783c342372c80cf45f2.png" />
 
-## Available Scripts
+<img src="https://user-images.githubusercontent.com/72955349/199868125-8594bb97-b1bd-4a32-8063-ae7e8e1f434e.png" style="width:480px" align="right" />
 
-In the project directory, you can run:
 
-### `npm start`
+<img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React web project to practice japanese with cards 🌸
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* When you click on the button 🌈 you change the number cards to colors
 
-### `npm test`
+* When you touch the button that shows 🔢 you switch to the number cards
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* When winning or having an error, it shows the corresponding alert
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Preview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌸 https://practice-language.netlify.app/ 🌸
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Practice-Cards-React
+<img src= "https://64.media.tumblr.com/ac97fd4df06663d446f15d1ab183a136/69f70331f87648cf-fb/s1280x1920/35f9dc4f269c1bd00f95b783c342372c80cf45f2.png" />
