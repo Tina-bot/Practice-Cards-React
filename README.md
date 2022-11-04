@@ -9,6 +9,15 @@
 
 * React web project to practice japanese with cards 🌸
 
+* You must write his Roomaji to earn a point, when you reach 3 you win <br/>
+An example of the roomanji would be something like this:
+```python
+1 = ichi
+or
+🔴 = aka
+```
+
+
 * When you click on the button 🌈 you change the number cards to colors
 
 * When you touch the button that shows 🔢 you switch to the number cards
